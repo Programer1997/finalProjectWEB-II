@@ -1,0 +1,123 @@
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body { 
+    width: 100%;
+    height: auto;
+    
+    header  { 
+        margin-top: 3%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+
+        .logo {
+            width: 20%;
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+
+            h2 { 
+                margin-right: 5%;
+
+            }
+            img { 
+                width: 20%;
+                height: auto;
+
+            }
+
+        }
+        .mainMenu { 
+            width: 60%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            //text-transform: uppercase;
+            align-items: center;
+            
+            h3 { 
+                font-size: 1.3rem;
+                
+                
+            }
+            
+        
+
+            #btn-header { 
+                margin-bottom: 1%;
+
+            }
+
+        }
+
+    }
+    main { 
+        width: 100%;
+        margin-top: 1%;
+        .home { 
+            position: relative;
+            width: 100%;
+            img { 
+                width: 100%;
+                height: 100vh;
+                opacity: 90%;
+                
+
+            }
+            .homeElements {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                position: absolute;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            
+                h1 { 
+                    text-transform: capitalize;
+                    color: white;
+                    font-size: 4em;
+                    .homeElements--span { 
+                        color: rgb(241, 145, 67);
+
+                    }
+
+                }
+                p {
+                    margin-top: 1%;
+                    margin-bottom: 5%; 
+                    color: black;
+                    font-size: 1.5em;
+                    
+
+                }
+                button {
+                    text-transform: uppercase; 
+                    width: 20%;
+                    margin-top: 2%;
+                    
+
+                }
+
+            }
+        }
+
+    }
+    footer { 
+       background-color: black;
+
+    }
+}
